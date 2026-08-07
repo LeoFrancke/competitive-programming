@@ -14,5 +14,4 @@ for n in range(number_of_statements):
         counter -= 1
 
 print(counter)
-# review and test before submission.
 
