@@ -10,8 +10,8 @@ This repo holds my competitive programming solutions and tracks my progress over
 
 ## Progress
 
-- [x] Started competitive programming (unrated easy problems in Python) - **August 2026**
-- [ ] Swap to C++ as main language
+- [x] Started competitive programming (unrated easy problems with Python) - **August 2026**
+- [x] Swap to C++ as main language
 - [ ] First rated contest on Codeforces
 - [ ] First 100 AC (Accepted) problems
 - [ ] First 500 AC problems
