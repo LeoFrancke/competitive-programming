@@ -1,7 +1,11 @@
 def main():
     word = input()
-    word_capitalized = word[0].title() + word[1:len(word)]
 
+    # In python, strings are immutable
+    # meaning I can't just do:
+    # word[0] = word[0].upper()
+
+    word_capitalized = word[0].title() + word[1:len(word)]   # or just: word[1:]
     print(word_capitalized)
 
 
