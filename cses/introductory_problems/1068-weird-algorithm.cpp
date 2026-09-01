@@ -7,7 +7,6 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    // unsigned: only positive values. it allows the variable to hold 2x more data.
     unsigned long long n;
     cin >> n;
 
@@ -22,8 +21,7 @@ int main() {
     }
 
     // output last value (1) and finish.
-    cout << 1 << endl;
-
+    cout << 1 << "\n";
     return 0;
 }
 
