@@ -1,23 +1,27 @@
-#include <bits/stdc++.h>
+// https://codeforces.com/problemset/problem/236/A
 
-// using namespace std;
-// avoiding the above code for now, just to get a feel of the language
+#include <bits/stdc++.h>
+using namespace std;
 
 int main() {
-    std::string username;
-    std::cin >> username;
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
-    std::set<char> unique_chars;
+    string username;
+    cin >> username;
+
+    set<char> unique_chars;
     for (unsigned int i = 0; i < username.size(); i++) {
         unique_chars.insert(username[i]);
     }
 
     if (unique_chars.size() % 2 == 0) {
-        std::cout << "CHAT WITH HER!" << "\n";
+        cout << "CHAT WITH HER!";
     } else {
-        std::cout << "IGNORE HIM!" << "\n";
+        cout << "IGNORE HIM!";
     }
 
+    cout << "\n";
     return 0;
 }
 
